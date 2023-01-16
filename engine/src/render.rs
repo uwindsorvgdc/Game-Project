@@ -1,10 +1,5 @@
 
-#[derive(Copy, Clone, Debug, Hash, PartialEq, Eq)]
-pub struct Pos<T>{
-    pub x: T,
-    pub y: T,
-}
-
+use crate::vec::Pos;
 
 #[derive(Copy, Clone, Debug, Hash, PartialEq, Eq)]
 pub struct Rectangle<T>{
